@@ -1,3 +1,5 @@
+#work in progress, doesn't currently switch out of exam net
+
 import subprocess
 
 def switch_to_app_window(app_name):
