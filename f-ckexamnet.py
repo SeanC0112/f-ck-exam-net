@@ -27,7 +27,7 @@ def on_activate_i():
 
 #add hotkey
 with kb.GlobalHotKeys({
-        #the keys you want.    the function you want to call
+        #the keys you want : the function you want to call
         '<cmd>+<shift>+<tab>': on_activate_i}) as h:
     h.join()
 
