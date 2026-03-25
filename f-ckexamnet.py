@@ -1,3 +1,9 @@
+# Disclaimer: I do not intend this piece of code to be used for cheating or academic
+# dishonesty of any kind. I personally have not and never will use this software 
+# for cheating in examnet. I instead would like people to know about this vulnerability 
+# so that they are able to demonstrate to teachers or administrators that examnet 
+# isn't secure and shouldn't be used in class (specifically for urban high school).
+
 import keyboard as key
 import time, pyperclip
 from pynput import keyboard as kb
