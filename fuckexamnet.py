@@ -15,13 +15,5 @@ def on_activate_i():
 with kb.GlobalHotKeys({
         '<cmd>+<shift>+<tab>': on_activate_i}) as h:
     h.join()
-    # keyboard.add_abbreviation('@@', 'my.long.email@example.com')
 
-
-# while True:
-#     print(i)
-#     i+=1
-#     time.sleep(30)
-#     keyboard.write('hi')
-#     print(pyperclip.paste())
 
