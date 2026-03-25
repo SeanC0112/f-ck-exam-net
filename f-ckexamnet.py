@@ -13,6 +13,7 @@ def on_activate_i():
     global clipboard
     #gets whats on the clipboard
     clipboard = pyperclip.paste()
+    #prints whats on the clipboard
     print('Clipboard content: ' + clipboard)
     # openai_response = openai.Completion.create(
     #     model="text-davinci-003",
